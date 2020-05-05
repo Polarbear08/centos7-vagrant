@@ -10,7 +10,7 @@ Vagrant.configure("2") do |config|
   # config.vm.network "private_network", ip: "192.168.33.10"
 
   # 共有フォルダ
-  config.vm.synced_folder "./share", "/mnt/vagrant", :mount_options => ["dmode=775,fmode=775"]
+  # config.vm.synced_folder "./share", "/mnt/vagrant", :mount_options => ["dmode=775,fmode=775"]
 
   # CPU, メモリサイズ
   config.vm.provider "virtualbox" do |vb|
