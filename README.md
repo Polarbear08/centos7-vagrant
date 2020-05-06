@@ -9,5 +9,6 @@ cd centos7-vagrant
 
 (適宜Vagrantfileをカスタマイズ)
 
+vagrant box add centos/7
 vagrant up
 ```
