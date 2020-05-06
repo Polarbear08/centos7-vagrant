@@ -98,7 +98,7 @@ Vagrant.configure("2") do |config|
     cd git-2.26.2
     make prefix=/usr/local all
     make prefix=/usr/local install
-    ln -s /usr/local/src/git-2.26.2/git /usr/bin/git
+    ln -s /usr/local/bin/git /usr/bin/git
     cd $HOME
     echo $(git --version)
     echo ""
