@@ -30,7 +30,7 @@ Vagrant.configure("2") do |config|
     echo Install Docker
     echo "See https://docs.docker.com/engine/install/centos/"
     echo -------------------------
-    ＃既にDockerが入っていたら、アンインストールする
+    # 既にDockerが入っていたら、アンインストールする
     yum remove docker \
                   docker-client \
                   docker-client-latest \
